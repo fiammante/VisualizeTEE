@@ -6,6 +6,8 @@ The tool reconstructs a 3D "optical flow" volume from a TEE video — using vide
 
 Everything runs **locally**: Dash starts a lightweight web server bound to `127.0.0.1` only, so the video and all processing stay on the clinician's machine with no external network exposure.
 
+> **Note on data:** Given the medical context, **no patient data or TEE video files are provided in this repository** — only the source code and documentation. All images used in this documentation (figures below) are **fully anonymized** screenshots/exports containing no patient-identifiable information.
+
 ---
 
 ## 1. How it works (summary)
